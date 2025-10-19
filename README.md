@@ -1,60 +1,62 @@
-# Hi, I'm [Your Name] 👋
+# Resume — laniricky
 
-> Short tagline that summarizes what you do — e.g. "Full‑stack engineer", "Data scientist", "Design‑minded product engineer", etc.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Language: TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6.svg)](https://www.typescriptlang.org/) [![GitHub stars](https://img.shields.io/github/stars/laniricky/resume?style=social)](https://github.com/laniricky/resume/stargazers) [![Pages](https://img.shields.io/badge/GitHub%20Pages-enabled-brightgreen)](https://laniricky.github.io/resume)
 
-[![Website](https://img.shields.io/badge/website-yourwebsite.com-blue)](https://yourwebsite.com) [![Email](https://img.shields.io/badge/email-you@domain.com-green)](mailto:you@domain.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-@yourhandle-0A66C2)](https://linkedin.com/in/yourhandle) [![Twitter](https://img.shields.io/badge/Twitter-@yourhandle-1DA1F2)](https://twitter.com/yourhandle)
+A repository containing the source and published versions of my resume (Markdown / HTML / PDF). This repository is intended to store a machine-readable resume source, a simple site (GitHub Pages) to view it, and any build tooling/scripts used to produce polished output.
 
----
+Repository details
+- Owner: laniricky (https://github.com/laniricky)
+- Repository: laniricky/resume (public)
+- Default branch: main
+- Primary language: TypeScript
+- License: MIT
+- Last pushed: 2025-10-19T11:14:02Z
+- Stars: 1
 
-About me
-- 🔭 I’m currently working on: a one‑line description of your current project or role.
-- 🌱 I’m learning: list 1–3 technologies or topics you're actively learning.
-- 💬 Ask me about: the subjects you enjoy talking about or mentoring.
-- 👯 I’m looking to collaborate on: the kind of projects or open source work you want to join.
-- ⚡ Fun fact: a short personal or professional fun fact.
+Contents (typical)
+- resume.md or resume.yml — canonical source (Markdown or JSON/YAML)
+- package.json / build scripts — tooling for building HTML/PDF
+- dist/ or public/ — generated HTML/PDF outputs
+- assets/ — images, fonts, styles
+- README.md — this file
 
-Core strengths
-- Languages: JavaScript/TypeScript, Python, Go (customize to your stack)
-- Frameworks & Tools: React, Node.js, Docker, Terraform, PostgreSQL (customize)
-- Interests: Systems design, developer experience, machine learning, devops (customize)
+Quick start
 
-Featured projects
-- [Project One — short tagline](https://github.com/yourhandle/project-one)  
-  A concise 1–2 sentence description of what the project does, the problem it solves, and the stack used.
-- [Project Two — short tagline](https://github.com/yourhandle/project-two)  
-  Quick summary + outcomes (e.g., saved X time, used by Y people).
-- [Project Three — short tagline](https://github.com/yourhandle/project-three)  
-  Quick summary + notable technical highlight or architectural choice.
+1. View online
+- If the repository is published via GitHub Pages, open:
+  https://laniricky.github.io/resume
 
-What I bring to a team
-- Building reliable systems with readable, testable code.
-- Shipping features quickly while maintaining quality and observability.
-- Mentoring teammates, conducting thorough code reviews, and documenting decisions.
+2. Local preview (common pattern)
+- Install dependencies:
+  npm install
+- Start a local dev server (if a script exists):
+  npm start
+- Build production artifacts:
+  npm run build
+- Generated files (HTML/PDF) will usually be placed in dist/ or public/.
 
-How I work
-- Prefers lightweight docs + automated tests.
-- Favors small, iterative PRs and feature flags for safer rollouts.
-- Uses metrics and logs to make data‑informed decisions.
+3. If there are direct outputs
+- Look for resume.pdf or resume.html in the repository root or the dist/ (public/) folder and open it in your browser or PDF viewer.
 
-Want to collaborate?
-- Open to: freelance, contract, full‑time, mentorship — specify what you want.
-- Email: you@domain.com
-- Calendar / portfolio: https://yourwebsite.com
+Project structure recommendations
+- Keep a single canonical source (resume.md or resume.yml/json). Use build scripts to generate HTML/PDF from that source.
+- Store generated artifacts in .gitignore if you prefer not to track them, or in a release branch/folder if you want to host them (for example, on Pages).
 
-If you like what I do, you can:
-- Star or follow my repos ⭐
-- Open an issue or PR on any project
-- Reach out for a quick chat
+How to contribute
+- Fork the repo, create a feature branch, and open a pull request.
+- Suggested contribution types:
+  - Content updates (typos, formatting)
+  - Improvements to the build pipeline (scripts, CI)
+  - Styling and accessibility improvements for the site
+- Please follow standard commit and PR practices and include a short description of your change.
 
-More (optional)
-- 🔗 Portfolio: https://yourwebsite.com  
-- 🧾 Resume: https://yourwebsite.com/resume.pdf  
-- 🛠️ Code stats (generated): ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourhandle&layout=compact)  
-- 📈 GitHub stats: ![Stats](https://github-readme-stats.vercel.app/api?username=yourhandle&show_icons=true)
+Contact
+- GitHub: https://github.com/laniricky
+- Homepage / Pages (if enabled): https://laniricky.github.io/resume
 
 License
-- This README template is available under the MIT License — adapt it to your needs.
+This project is licensed under the MIT License — see the LICENSE file for details.
 
----
-
-Need this personalized? Tell me the key details below and I’ll update this README with your content, tone, and links.
+Notes
+- This repository uses TypeScript for tooling or site code.
+- If you can't find the resume file you expect (PDF/MD/HTML), check the repository root and common subdirectories like dist/, public/, or site/.
