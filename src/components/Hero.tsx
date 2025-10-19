@@ -51,7 +51,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <a
-              href="./resume.pdf"
+              href="/resume.pdf"
               download
               className="group px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-slate-900 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105"
             >
