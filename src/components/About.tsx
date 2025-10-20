@@ -37,7 +37,7 @@ export default function About() {
             className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 mb-12 border border-slate-700/50 shadow-xl"
           >
             <p className="text-lg text-slate-300 leading-relaxed">
-              Award-winning <span className="text-cyan-400 font-semibold">IT Systems Engineer, Full Stack Developer & Animator</span> with 8+ years of
+              Award-winning <span className="text-cyan-400 font-semibold">IT Systems Engineer, Full Stack Developer & Animator</span> with 5+ years of
               experience delivering integrated technical and creative solutions. Founder and Creative Lead at
               <span className="text-cyan-400 font-semibold"> MTAANIMATION</span>, combining systems engineering, web development and high-impact
               animation to produce commercial campaigns, educational series and interactive web
