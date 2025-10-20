@@ -10,7 +10,7 @@ export default function About() {
   const facts = [
     { icon: MapPin, label: 'Location', value: 'Nairobi, Kenya' },
     { icon: Mail, label: 'Email', value: 'lani@mtaanimation.com' },
-    { icon: Calendar, label: 'Experience', value: '8+ Years' },
+    { icon: Calendar, label: 'Experience', value: '3+ Years' },
     { icon: Sparkles, label: 'Specialty', value: 'Animation & Full Stack' }
   ];
 
