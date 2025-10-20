@@ -12,7 +12,7 @@ export default function Experience() {
       title: 'Founder & Creative Lead',
       company: 'MTAANIMATION',
       location: 'Nairobi, Kenya',
-      period: '2025 – Present',
+      period: '2022 – Present',
       achievements: [
         'Founded and scaled MTAANIMATION into a full-service creative tech studio specializing in animation, motion design and web experiences',
         'Produced and delivered 30+ client animation campaigns (2D explainer videos, motion graphics, short-form ads) and 8 short films (2D & 3D)',
